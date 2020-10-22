@@ -1,0 +1,60 @@
+body{
+	background-color: darkgray;
+}
+.fixed {
+	height: 10vh;
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	left: 0px;
+	top: 0px;
+}
+#header {
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+}
+#buttonsArea {
+	width: 20vw;
+	left: 0px;
+	top: 10vh;
+	height: 90vh;
+}
+#page {
+	left: 20vw;
+	top: 10vh;
+	width: 70vw;
+	margin: 2vw;
+	height: auto;
+	position: absolute;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card {
+	margin: 1vw;
+	width: 15vw;
+	height: 35vh;
+	background-color: lightgray;
+	border-radius: 8px;
+}
+
+.card:hover {
+	background-color: gray;
+}
+.card>img {
+	width: 100%;
+	max-width: 100%;
+	border-radius: 8px;
+}
+span{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	font-size: 72px;
+}
+#butBro{
+	width: 20vw;
+	padding: 10vh;
+	height: 22.5vh;
+}
